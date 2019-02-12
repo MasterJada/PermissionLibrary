@@ -86,7 +86,6 @@ class PermissionManager {
         } else {
             callback.invoke()
         }
-
     }
 
     fun onPermissionResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
